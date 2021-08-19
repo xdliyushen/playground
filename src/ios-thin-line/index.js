@@ -16,24 +16,24 @@ const Example = () => {
     }
 
     return (
-        // <div className="wrap">
-        //     <div className="inner" />
-        // </div>
-        <>
-            <div className="backdrop">
-                <div className="circle">
-                    <div
-                        className="overflowing"
-                        style={{
-                            marginTop: `${top}px`,
-                            marginLeft: `${left}px`,
-                        }} />
-                </div>
-            </div>
-            <span>top and right of the circle you should see some red, bottom left not</span><br />
-            <em>Feel free to play around with these values:</em><br />
-    Top margin: <input type="number" id="cngMargin" onInput={setMarginTop} value={top} /><br />
-    Left margin: <input type="number" id="cngMargin" onInput={setMarginLeft} value={left} /></>
+        <div className="wrap">
+            <div className="inner" />
+        </div>
+    //     <>
+    //         <div className="backdrop">
+    //             <div className="circle">
+    //                 <div
+    //                     className="overflowing"
+    //                     style={{
+    //                         marginTop: `${top}px`,
+    //                         marginLeft: `${left}px`,
+    //                     }} />
+    //             </div>
+    //         </div>
+    //         <span>top and right of the circle you should see some red, bottom left not</span><br />
+    //         <em>Feel free to play around with these values:</em><br />
+    // Top margin: <input type="number" id="cngMargin" onInput={setMarginTop} value={top} /><br />
+    // Left margin: <input type="number" id="cngMargin" onInput={setMarginLeft} value={left} /></>
     );
 };
 

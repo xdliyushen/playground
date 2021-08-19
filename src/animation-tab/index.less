@@ -1,0 +1,64 @@
+body {
+    background-color: black;
+    padding: 20px;
+}
+
+.f-fbvc {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.f-fcc {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.f-pr {
+    position: relative;
+}
+
+.f-pa {
+    position: absolute;
+}
+
+.f-tc {
+    text-align: center;
+}
+
+.m-animationtab {
+    width: max-content;
+    font-size: 12px;
+    border-radius: 12.5px;
+    background-color: #1485ff;
+
+    .normal-tabs {
+        color: #fff;
+    }
+
+    .active-tabs {
+        color: #2666fc;
+    }
+
+    .tab-btn {
+        width: 60px;
+        height: 25px;
+        line-height: 25px;
+        user-select: none;
+    }
+
+    .tab-btn-window {
+        top: 0;
+        width: 60px;
+        height: 25px;
+        background-color: #fff;
+        border-radius: 12.5px;
+        transition: left 6.3s ease-in-out;
+        overflow: hidden;
+
+        .active-tabs {
+            transition: left 6.3s ease-in-out;
+        }
+    }
+}

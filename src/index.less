@@ -1,1 +1,141 @@
-// todo 搞一个自己的 eslint 配置出来
+* {
+    padding: 0;
+    margin: 0;
+    color: #fff;
+}
+
+.img-container {
+    border: 1px solid red;
+    font-size: 40px;
+
+    .text {
+        // vertical-align: middle;
+    }
+}
+
+.span-conatiner {
+    border: 1px solid black;
+
+    .span1,
+    .span2,
+    .span3 {
+        display: inline-block;
+        min-width: 20px;
+        height: 30px;
+        // line-height: 1;
+        // vertical-align: baseline;
+        background-color: orange;
+    }
+}
+
+// .modal-content {
+//     width: 400px;
+//     height: 400px;
+//     background-color: red;
+// }
+
+// // todo 搞一个自己的 eslint 配置出来
+// .container {
+//     width: 800px;
+//     height: 100px;
+//     border: 2px solid red;
+//     box-sizing: border-box;
+    
+//     .btn {
+//         width: 200px;
+//         height: 100%;
+//         background-color: #000;
+//     }
+// }
+
+// @import '~@music/mrcless/dist/variable.less';
+// @base_modal_zIndex: 1000;
+// @base_modal_mask_background: rgba(0, 0, 0, 0.65);
+// @base_modal_background: #fff;
+// @base_modal_transition_time: 200ms;
+
+// .@{mrc-prefix}-modal {
+//     position: absolute;
+//     z-index: @base_modal_zIndex;
+//     display: none;
+
+//     &-visbh {
+//         position: absolute;
+//         z-index: @base_modal_zIndex;
+//         visibility: hidden;
+//     }
+
+//     &-visbs {
+//         visibility: visible;
+//     }
+
+//     &-mask {
+//         position: fixed;
+//         top: 0;
+//         right: 0;
+//         left: 0;
+//         bottom: 0;
+//         background-color: @base_modal_mask_background;
+//     }
+
+//     &-wrapper {
+//         position: fixed;
+//         top: 0;
+//         left: 0;
+//         right: 0;
+//         bottom: 0;
+//         display: flex;
+//         -webkit-overflow-scrolling: touch;
+//         pointer-events: none;
+//         &.@{mrc-prefix}-modal-center {
+//             justify-content: center;
+//             align-items: center;
+//             .@{mrc-prefix}-modal-container {
+//                 position: relative;
+//             }
+//         }
+//     }
+
+//     &-container {
+//         position: absolute;
+//         background: @base_modal_background;
+//         pointer-events: auto;
+//         .@{mrc-prefix}-header {
+//             position: relative;
+//         }
+//     }
+
+//     &-show {
+//         display: block;
+//     }
+// }
+
+// .@{mrc-prefix}-modal-enter,
+// .@{mrc-prefix}-modal-appear {
+//     opacity: 0;
+// }
+
+// .@{mrc-prefix}-modal-enter-active,
+// .@{mrc-prefix}-modal-appear-active {
+//     opacity: 1;
+//     transition: all @base_modal_transition_time ease-out;
+// }
+
+// .@{mrc-prefix}-modal-enter-done,
+// .@{mrc-prefix}-modal-exit {
+//     opacity: 1;
+// }
+
+// .@{mrc-prefix}-modal-exit-active {
+//     opacity: 0;
+//     transition: all @base_modal_transition_time ease-out;
+// }
+
+// .@{mrc-prefix}-modal-parent-overflow-hidden {
+//     position: fixed;
+//     top: 0;
+//     left: 0;
+//     height: 100%;
+//     width: 100%;
+//     z-index: 1002;
+// }
