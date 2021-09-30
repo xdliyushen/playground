@@ -18,12 +18,18 @@ import PlayGround3 from './pixi-bubble';
 import PlayGround4 from './pixi-animate-sprite';
 import PlayGround5 from './pixi-video';
 import PlayGround6 from './firework-js';
+import PlayGround7 from './pixi-mesh';
+import PlayGround8 from './pixi-spine';
 import Bezier from './bezier';
 import Transition from './ReactTransitionGroup';
 import Tab from './animation-tab';
+import MenuConfig from './MenuConfigJSON';
+import Bitmap from './Bitmap';
+import Handler from './useImperativeHandler';
 // todo 搞一个！
 // import './base.less';
 import './index.less';
+import Pixireact from './pixi-react';
 
 const showHouseModal = () => Modal.create({
     maskClosable: true,
@@ -55,14 +61,6 @@ const App = () => {
     //     setCount(123);
     // }, []);
 
-    return (
-        <div>
------测试----
-
-            <div>{count}</div>
-        </div>
-    );
-
 
     // const onScroll = useCallback(() => {
     //     console.log('react scroll');
@@ -89,8 +87,12 @@ const App = () => {
     // </div>
 
     <>
+        {/* <MenuConfig /> */}
+        {/* <Bitmap /> */}
+        {/* <Pixireact /> */}
+        {/* <Handler /> */}
         {/* <Transition /> */}
-        <Tab />
+        {/* <Tab /> */}
         {/* <div className="span-conatiner">
         Far out in the uncharted backwaters of the unfashionable end of the western spiral arm of the Galaxy lies a small unregarded yellow sun.
         </div>
@@ -111,6 +113,8 @@ const App = () => {
         {/* <PlayGround4 /> */}
         {/* <PlayGround5 /> */}
         {/* <PlayGround6 /> */}
+        {/* <PlayGround7 /> */}
+        <PlayGround8 />
         {/* <div className="img-container">
             <img
                 className="img"

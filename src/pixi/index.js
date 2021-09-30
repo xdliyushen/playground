@@ -14,6 +14,7 @@ const PlayGround = () => {
         // 将 canvas 添加到 DOM 元素中
         document.getElementById('pixi-container').appendChild(app.view);
 
+
         // 加载资源
         app.loader.add('bunny', 'https://pixijs.io/examples-v4/examples/assets/bunny.png')
             .load(() => {

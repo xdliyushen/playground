@@ -11,8 +11,10 @@ const PlayGround = () => {
         // 将 canvas 添加到 DOM 元素中
         document.getElementById('pixi-container').appendChild(app.view);
 
+        // app.stop();
+
         // 加载资源
-        app.loader.add('pet', 'https://p5.music.126.net/obj/wo3DlcOGw6DClTvDisK1/9620468586.png')
+        app.loader.add('pet', 'http://localhost:8001/src/pixi-animate-sprite/texture.png')
             .load(() => {
                 const texture = PIXI.Texture.from('pet');
                 const sheet = new PIXI.Spritesheet(texture, spritesheet);
